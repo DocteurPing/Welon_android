@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/name_restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="18sp" />
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp">
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/quality"
+                    android:layout_marginEnd="10dp"/>
+
+            <ImageView
+                    android:id="@+id/star1_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_fork_full"
+                    android:layout_marginEnd="5dp"/>
+
+            <ImageView
+                    android:id="@+id/star2_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_fork"
+                    android:layout_marginEnd="5dp"/>
+
+            <ImageView
+                    android:id="@+id/star3_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_fork"
+                    android:layout_marginEnd="5dp"/>
+
+            <ImageView
+                    android:id="@+id/star4_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_fork"
+                    android:layout_marginEnd="5dp"/>
+
+            <ImageView
+                    android:id="@+id/star5_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_fork" />
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="@string/quantity"
+                android:layout_marginEnd="10dp"/>
+
+        <ImageView
+                android:id="@+id/star1_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork_full"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star2_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star3_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star4_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star5_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="@string/price"
+                android:layout_marginEnd="10dp"/>
+
+        <ImageView
+                android:id="@+id/star1_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork_full"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star2_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star3_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star4_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork"
+                android:layout_marginEnd="5dp"/>
+
+        <ImageView
+                android:id="@+id/star5_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fork" />
+
+    </LinearLayout>
+
+</LinearLayout>

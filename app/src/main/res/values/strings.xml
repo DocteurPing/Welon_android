@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Welon</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="passwordConfirm">Confirmer le mot de passe</string>
+    <string name="sign_up">S\'ENREGISTRER</string>
+    <string name="sign_in">SE CONNECTER</string>
+    <string name="log_out">SE DECONNECTER</string>
+    <string name="firstname">Prénom</string>
+    <string name="lastname">Nom</string>
+    <string name="phonenumber">Numéro de téléphone</string>
+    <string name="username">Pseudo</string>
+    <string name="text_sign_up">Vous n\'avez pas de compte?
+        <font color='#00C851'>S\'inscrire</font>
+    </string>
+    <string name="text_sign_in">Vous avez déjà un compte?
+        <font color='#00C851'>Se connecter</font>
+    </string>
+    <string name="next">SUIVANT</string>
+    <string name="restaurants">RESTAURANTS</string>
+    <string name="text_deconnexion">Etes-vous sur de vouloir vous deconnecter?</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="cancel">Annuler</string>
+    <string name="menus">Menus</string>
+    <string name="entrees">Entrees</string>
+    <string name="plats">Plats</string>
+    <string name="desserts">Desserts</string>
+    <string name="boissons">Boissons</string>
+    <string name="show_password">Afficher le mot de passe</string>
+    <string name="send">ENVOYER</string>
+    <string name="quality">Qualité</string>
+    <string name="price">Prix</string>
+    <string name="quantity">Quantité</string>
+    <string name="prix_base">0€</string>
+    <string name="list_item">Entrées, Plats, Desserts, Boissons</string>
+    <string name="share">PARTAGER</string>
+    <string name="rating">NOTATION</string>
+    <string name="changePassword">CHANGER MON MOT DE PASSE</string>
+    <string name="oldPassword">Ancien mot de passe</string>
+    <string name="newPassword">Nouveau mot de passe</string>
+    <string name="confirmPassword">Confirmation du mot de passe</string>
+    <string name="verified">Verification du compte</string>
+    <string name="text_verify">Votre compte n\'est pas verifié. Veuillez le confirmer grace au lien envoyé sur votre boite mail.</string>
+    <string name="conntinue">Continuer</string>
+    <string name="history">HISTORIQUE</string>
+    <string name="progression">PROGRESSION</string>
+    <string name="profil">PROFIL</string>
+    <string name="map">CARTE DES RESTAURANTS</string>
+    <string name="delete">SUPPRIMER MON COMPTE</string>
+    <string name="text_delete">Voulez vous vraiment supprimer votre compte ?</string>
+</resources>
